@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment 1</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://ga.jspm.io/npm:three@0.168.0/build/three.module.js",
+            "OrbitControls": "https://ga.jspm.io/npm:three@0.168.0/examples/jsm/controls/OrbitControls.js",
+            "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.2/dist/lil-gui.esm.js"
+          }
+        }
+        </script>
+
+    <!-- three.js scene -->
+    <script src="script.js" type="module"></script>
+
+</head>
+<body>
+  <div class="flexbox">
+    <!-- ESSAY -->
+    <div class="essay">
+     <h2>1. Flatness</h2>
+     <p><span class="clickable" id="part-one">From inside the cave...</span></p>
+
+     <p>The initial shadows on the wall appear as if two objects are  <span class="clickable" id="first-change">locked in a relentless collision</span>. creating an unsettling spectacle. If I were one of the individuals trapped inside the cave, this image would be deeply unnerving. The uncertainty of the shapes, their erratic movements, and the persistent impact between them would stir anxiety and confusion. One might perceive them as objects being violently hurled back and forth or even as massive entities locked in combat. The second shadow presents a different, yet equally perplexing, motion, one shape continuously <span class="clickable" id="second-change">growing and shrinking</span> while another orbits around it. At first glance, this might seem calmer, but from the perspective of someone inside the cave, it could be even more distressing. The enlarging and shrinking form could resemble an approaching threat, as if an object were being hurled closer and closer to the light. While this shifting shape alone might provoke fear, the orbiting figure adds an additional layer of mystery. Unlike the central object, it remains constant in size, making its purpose unclear and its connection to the larger shape even more enigmatic. As history has shown, the unknown is a powerful source of fear. The inability to comprehend the relationship between the expanding core and its orbiting counterpart would likely leave the cave’s inhabitants in a state of unease. The unpredictability, the sense of looming threat, and the unanswered questions all contribute to an atmosphere of fear, one that is driven not just by what is seen, but by what remains unknown.</span></p>
+
+     <p>Nick Sousanis' concept of flatness presents a challenging yet thought-provoking perspective. At its core, flatness represents a rigid way of thinking, an inability to see beyond what is immediately presented. It is the tendency to take everything at face value, without questioning or exploring deeper connections. A simple example can be found in the way people interpret the world around them. Some, when gazing at drifting clouds, imagine animals, familiar shapes, or characters that resonate with them. Others, bound by flatness, see only formless vapor, unable to engage in abstract thinking or creative interpretation. Flatness limits perception to a narrow, literal viewpoint, preventing individuals from making meaningful connections beyond the obvious. This concept strongly parallels the experience of the cave dwellers in Plato’s Allegory of the Cave. Trapped in their two-dimensional perspective, they interpret shadows as fixed truths rather than questioning what lies beyond. The fear of the unknown further reinforces their limited understanding, shadows that shift, grow, and shrink are perceived as chaotic and threatening rather than as natural interactions between objects in motion. If they could think beyond their flat perspective, they might see these moving forms differently, perhaps as one object peacefully orbiting another, moving in harmony rather than in conflict. But without the ability to "think outside the box," they remain trapped in their limited reality, unable to grasp the full picture.</p>
+
+     <h2>2. Seeing Double</h2>
+     <p><span class="clickable" id="part-two">From outside the cave...</span></p>
+
+     <p>From outside the cave, we can clearly see one <span class="clickable" id="third-change">object moving in a circular path while another moves diagonally</span> across the scene. It becomes apparent that these two objects are working in unison, rising and setting together, much like the sun and moon. From this vantage point, their shapes and movements are easy to interpret, but the shadows they cast on the cave walls tell a different story. Without seeing the objects themselves, it can be difficult to make the connection between their motion and something as familiar as the sun and moon. However, when observing both the objects and their shadows, we can see how they interact, creating a kind of visual narrative for those outside the cave. In the second scene, the movement changes, one object  <span class="clickable" id="fourth-change">shifts up and down while the other moves side to side</span> This contrast highlights the difference between seeing only the shadows versus seeing both the objects and their projections. The shapes almost appear to be chasing each other, briefly meeting before drifting apart again. However, for those relying only on the shadows, the story is much harder to piece together. At times, the light shifts in a way that causes the shadows to disappear completely, interrupting the sense of continuity.</span></p>
+
+     <p>Nick Sousanis’ idea of Seeing Double refers to the ability to perceive more than one thing at a time, seeing something as it is while simultaneously imagining something else. Though this concept can be challenging to grasp, I interpret it as the imagination taking over, connecting what we see to personal experiences and interests in unexpected ways. A way I personally relate to this idea is through drawing. Sometimes, I doodle random shapes without a clear intention, then step back and let my imagination guide me. I start to see forms and patterns that remind me of something meaningful, and with that new perspective, I revisit the drawing, reshaping it in a different way. This process of reinterpreting what I see aligns with Seeing Double, allowing initial perceptions to evolve into something deeper. This idea can also be connected to the contrast between perspectives inside and outside Plato’s cave. Inside the cave, the two-dimensional shadows appear unclear and difficult to interpret. However, once outside, those same shapes become easier to understand, as they can be viewed in their full form. Seeing Double allows for this shift in perspective, it encourages looking beyond the immediate image, reconsidering its meaning, and making connections beyond the obvious. Though the experience of being inside versus outside the cave is different, even those within the cave can begin to imagine alternative interpretations. By stepping back and reassessing what they see, they can start to expand their understanding, bridging the gap between perception and imagination.</p>
+    </div>
+
+    <!-- SCENE -->
+    <div class="scene">
+      <canvas class="webgl"></canvas>
+    </div>
+  </div>
+</body>
